@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Ankit Shrivastava"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Engineering smarter solutions with AI and scientific computing"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Applied scientist focused on machine learning, scientific computing, uncertainty quantification, and high-performance computing."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -91,13 +91,13 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
-    cta:
-      enable: false
-      text: ""
-      url: ""
+    # cta:
+    #   enable: true
+    #   text: "Download CV"
+    #   url: "/assets/pdf/workfolio.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -108,7 +108,7 @@ hugoblox:
     style: minimal                      # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: ""
+    text: "Powered by Hugo Blox | Ankit Shrivastava"
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -157,7 +157,7 @@ hugoblox:
   content:
     # Math rendering
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
@@ -235,7 +235,7 @@ hugoblox:
   repository:
     enable: false
     url: ""                             # e.g., https://github.com/username/repo
-    branch: main
+    branch: myweb
     content_dir: content
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -287,7 +287,7 @@ hugoblox:
     # Note: Even with Pro, you can keep this false to support open source!
     # Get Pro: https://hugoblox.com/pro
     hide_attribution: false
-    
+
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""

@@ -16,6 +16,7 @@ sections:
       filters:
         folders:
           - projects
+      count: 100
     design:
       view: article-grid
       fill_image: false
