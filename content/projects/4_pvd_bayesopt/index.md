@@ -39,9 +39,9 @@ Optimizing for one property in isolation, such as low resistance, can inadverten
 
 When the design criteria aren't appropriately chosen, the costs ripple across entire industries:
 
-- ⚡ **Yield crashes in fabs**: In 2019, TSMC, the world's largest chipmaker, lost an estimated $550 million when a chemical contamination reduced wafer yields across multiple advanced nodes, {% cite tsmc2019 --file externals%}
+- ⚡ **Yield crashes in fabs**: In 2019, TSMC, the world's largest chipmaker, lost an estimated $550 million when a chemical contamination reduced wafer yields across multiple advanced nodes (tsmc2019).
 
-- 💾 **Consumer device recalls**: In 2010, defective chips used in certain Intel chipsets caused data corruption and system instability, forcing Intel into a $700 million recall and replacement program, {% cite intel2010 --file externals%}
+- 💾 **Consumer device recalls**: In 2010, defective chips used in certain Intel chipsets caused data corruption and system instability, forcing Intel into a $700 million recall and replacement program (intel2010).
 
 ## Finding the Sweet Spot: Smarter Trade-offs in Chip Manufacturing
 
@@ -49,7 +49,7 @@ When the design criteria aren't appropriately chosen, the costs ripple across en
 
 Modern semiconductor processes involve multiple interdependent variables, including deposition power and chamber pressure, as well as gas chemistry and temperature.
 Adjusting one knob often changes multiple outcomes, sometimes in conflicting ways.
-For example, in the deposition of molybdenum (Mo) barrier layers, increasing power during sputtering improves conductivity but also raises internal film stress, which can make layers prone to cracking {% cite vink1991 %}.
+For example, in the deposition of molybdenum (Mo) barrier layers, increasing power during sputtering improves conductivity but also raises internal film stress, which can make layers prone to cracking (vink1991).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -81,7 +81,7 @@ In semiconductors, this means finding reliable process conditions with fewer tes
     </div>
 </div>
 <span class="caption">
- Overview of the approach, refer to paper {% cite 10.1116/6.0003418 %} for details.
+ Overview of the approach, refer to paper (10.1116/6.0003418) for details.
 </span>
 
 > By learning where it is uncertain, the model knows exactly where to explore next.
@@ -93,7 +93,7 @@ This uncertainty is not a drawback; instead, it guides exploration into new regi
 In this way, the search quickly converges on the best options without wasting time.
 
 <figure>
-  <img src="/assets/img/projects/pvd-bayesopt.jpg"
+  <img src="/assets/img/projects/gp.gif"
        class="img-fluid rounded z-depth-1 w-60 mx-auto d-block"
        alt="Gaussian process fit"
        loading="lazy">

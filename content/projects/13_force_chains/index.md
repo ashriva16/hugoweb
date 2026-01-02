@@ -74,11 +74,7 @@ These bright patterns are the force chains, showing how contact forces build up,
 <p id="fig-chainexp"></p>
 <div class="row">
   <div class="col-12 col-md-10 col-lg-8 mx-auto">
-    {% include video.liquid
- path="https://www.youtube.com/embed/6WEHJ0Fm3d0?start=1"
- height="400px"
- class="w-100 rounded z-depth-1"
-    %}
+    {{< youtube id="6WEHJ0Fm3d0" start="1" >}}
     <span class="caption d-block text-center mt-2" markdown="1">
  Experimental observation of force chains
     </span>

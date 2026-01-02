@@ -37,8 +37,8 @@ In engineering — whether in aerospace, semiconductors, or civil structures —
 Ignoring material performance can lead to safety issues, high costs, and unexpected downtime.
 For example,
 
-- manufacturing defect in a single gear tooth grounded fleets, caused loss of life, and exposed enormous reputational and financial risk {% cite aerospace_failure --file externals%}.
-- In semiconductors, material defects can cause losses—tens of millions of dollars in wasted wafers {% cite semiconductor_defects --file externals%}.
+- manufacturing defect in a single gear tooth grounded fleets, caused loss of life, and exposed enormous reputational and financial risk (aerospace_failure).
+- In semiconductors, material defects can cause losses—tens of millions of dollars in wasted wafers (semiconductor_defects).
 
 Hence, predicting material behavior is not just a research challenge but a business necessity.
 
@@ -48,7 +48,7 @@ Hence, predicting material behavior is not just a research challenge but a busin
   </div>
   <figcaption class="caption" markdown="1">
   Liberty Ship *Schenectady* fractured from deck to keel.
-  Reproduced with permission from {% cite shipfail --file externals %}.
+  Reproduced with permission from (shipfail).
   </figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ In this work, we developed a method to **predict peak-stress clusters in polycry
 </div>
 
 <span class="caption">
- Overview of the approach, refer {% cite doi:10.1177/10812865211055504%} for more details.
+ Overview of the approach, refer (doi:10.1177/10812865211055504) for more details.
 </span>
 
 ## Further read

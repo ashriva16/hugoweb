@@ -44,7 +44,7 @@ This shows that complex systems can fail because of tiny, hidden flaws.
 Now imagine a world where most daily activities are governed by complex AI models.
 What happens when these systems start making wrong, even harmful, predictions or decisions, even though they are trained carefully?
 In one well-known example, researchers showed that by altering just a few bytes in a trained model, a state-of-the-art self-driving car misread a stop sign as "Speed Limit 45."
-A small sticker of a few pixels was enough to fool a billion-dollar system {% cite eykholt2018robust %}.
+A small sticker of a few pixels was enough to fool a billion-dollar system (eykholt2018robust).
 
 This is why it becomes crucial to understand when and how pre-trained models, despite having multiple safeguards during training, can still be fooled so easily.
 Such investigations fall under the field of adversarial attacks, which study deliberate manipulations designed to expose the hidden weaknesses of AI systems.
@@ -56,7 +56,7 @@ In Adversarial attacks, a deliberate attempt is made to deceive the models by in
 These changes are crafted so carefully that they appear harmless to the human eye.
 Yet, they completely alter how the model interprets the data.
 
-A classic demonstration comes from researchers at Google Brain, who showed that adding a barely perceptible noise pattern to a picture of a panda made a highly accurate image classifier label it as a gibbon with over 99% confidence {% cite goodfellow2014explaining --file externals%}.
+A classic demonstration comes from researchers at Google Brain, who showed that adding a barely perceptible noise pattern to a picture of a panda made a highly accurate image classifier label it as a gibbon with over 99% confidence (goodfellow2014explaining).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -67,7 +67,7 @@ A classic demonstration comes from researchers at Google Brain, who showed that 
     </div>
 </div>
 <span class="caption">
-The classic "panda–gibbon" adversarial example from Goodfellow et al. (2014) {% cite goodfellow2014explaining --file externals %}.
+The classic "panda–gibbon" adversarial example from Goodfellow et al. (2014) (goodfellow2014explaining).
 A small, imperceptible perturbation is added to the original image of a panda.
 To humans, the result looks identical, but the neural network's prediction changes from "panda" to "gibbon".
 This striking example illustrates how tiny, structured noise can completely mislead a deep learning model.
@@ -91,14 +91,11 @@ In our study, we explored why deep neural networks become vulnerable to small, i
 
 <div class="row">
   <div class="col-12 col-md-10 col-lg-8 mx-auto">
-    {% include video.liquid
- path="https://www.youtube.com/embed/dHo9QUm85Ms"
- height="400px"
- class="w-100 rounded z-depth-1" %}
+    {{< youtube id="dHo9QUm85Ms" >}}
   </div>
 </div>
 <span class="caption" markdown="1">
- Online lecture on our work to better identify algorithms that are vulnerable to these attacks and present explainable options to help design better models. To read in more detail refer {% cite DBLP:journals/corr/abs-2005-03141 --file papers%}
+ Online lecture on our work to better identify algorithms that are vulnerable to these attacks and present explainable options to help design better models. To read in more detail refer (DBLP:journals/corr/abs-2005-03141).
 </span>
 
 We showed that adversarial perturbations—whether crafted by white-box or black-box attacks—primarily distort the high-frequency components of an image, which humans hardly perceive.

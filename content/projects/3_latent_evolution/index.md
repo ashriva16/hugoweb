@@ -96,7 +96,7 @@ By applying these criteria before deploying downstream machine-learning models, 
   </div>
 </div>
 <span class="caption">
- Refer to paper {% cite desai2023 %} for details.
+ Refer to paper (desai2023) for details.
 </span>
 
 ## Further Read

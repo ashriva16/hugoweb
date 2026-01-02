@@ -78,10 +78,7 @@ However, AC system efficiency declines over long distances and underwater routes
 
 <div class="row">
   <div class="col-12 col-md-10 col-lg-8 mx-auto">
-    {% include video.liquid
- path="https://www.youtube.com/embed/JH9-0AbR_1U?start=1"
- height="400px"
- class="w-100 rounded z-depth-1" %}
+    {{< youtube id="JH9-0AbR_1U" start="1" >}}
   </div>
 </div>
 

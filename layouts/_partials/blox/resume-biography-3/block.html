@@ -101,6 +101,13 @@
               {{ if .url }}</a>{{ end }}
             </p>
           {{ end }}
+
+          {{ $tagline := site.Params.hugoblox.identity.tagline | default $block.content.hero_text }}
+          {{ with $tagline }}
+            <div class="bio-typer text-2xl lg:text-3xl font-semibold text-primary-700 dark:text-primary-300 leading-relaxed" data-typer>
+              {{ . | emojify | plainify }}
+            </div>
+          {{ end }}
         </div>
 
         <div class="flex flex-wrap justify-center gap-4">

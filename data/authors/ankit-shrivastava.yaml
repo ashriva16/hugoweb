@@ -1,0 +1,12 @@
+slug: "ankit-shrivastava"
+name:
+  display: "Ankit Shrivastava"
+  given: "Ankit"
+  family: "Shrivastava"
+role: "Research Scientist"
+bio: ""
+status:
+  icon: "🎓"
+is_owner: true
+schema: "hugoblox/author/v1"
+weight: null

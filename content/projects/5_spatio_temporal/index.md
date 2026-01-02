@@ -45,10 +45,7 @@ This shows why precise simulations are essential for making engineering safe and
 
 <div class="row">
   <div class="col-12 col-md-10 col-lg-8 mx-auto">
-    {% include video.liquid
- path="https://www.youtube.com/embed/KRutAt0FlGA"
- height="400px"
- class="w-100 rounded z-depth-1" %}
+    {{< youtube id="KRutAt0FlGA" >}}
   </div>
 </div>
 <span class="caption" markdown="1">
@@ -87,7 +84,7 @@ To manage this, engineers are forced into tradeoffs where they either compromise
   </div>
 </div>
 <span class="caption" markdown="1">
- Dynamics simulations of (from left to right): an aircraft wing{% cite dlr_wing --file externals%}, a suspension bridge{% cite strand7_bridge --file externals%}, and a high-rise building{% cite asi_collapse --file externals%}.
+Dynamics simulations of (from left to right): an aircraft wing (dlr_wing), a suspension bridge (strand7_bridge), and a high-rise building (asi_collapse).
 </span>
 
 ## The Future of Modeling: AI + Simulation Together
@@ -115,7 +112,7 @@ In short, it's a step toward faster, more reliable scientific simulations and de
     </div>
 </div>
 <span class="caption">
- Overview of the approach. Refer to the paper {% cite arora2022spatiotemporalsuperresolutiondynamicalsystems %} for details.
+ Overview of the approach. Refer to the paper (arora2022spatiotemporalsuperresolutiondynamicalsystems) for details.
 </span>
 
 ## Further read
