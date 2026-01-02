@@ -1,25 +1,22 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.152.2'
-  NODE_VERSION: '20'
-  BASE_URL: 'https://ashriva.in/'
+  WC_HUGO_VERSION: "0.152.2"
+  NODE_VERSION: "20"
+  BASE_URL: "https://ashriva.in/"
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
-    branches: ['myweb']
-  # Allows you to run this workflow manually from the Actions tab on GitHub
+    branches: ["myweb"]
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
@@ -42,6 +39,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: Install dependencies
+        shell: bash
         run: |
           if [ -f "package.json" ]; then
             echo "Installing Tailwind dependencies..."
@@ -54,7 +52,8 @@ jobs:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
 
-      - uses: actions/cache@v4
+      - name: Cache Hugo + Node deps
+        uses: actions/cache@v4
         with:
           path: |
             /tmp/hugo_cache_runner/
@@ -64,7 +63,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugo-deps-
 
-      - uses: actions/cache@v4
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
         with:
           path: resources/
           key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*', 'hugo.yaml', 'package.json') }}
@@ -74,15 +74,22 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
+        shell: bash
         run: |
-          echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
           hugo --minify --gc --cleanDestinationDir --baseURL "${BASE_URL}"
 
       - name: Generate Pagefind search index (if applicable)
+        shell: bash
         run: |
           if [ -f "package.json" ] && grep -q "pagefind" package.json; then
             pnpm dlx pagefind --source "public" || npx pagefind --source "public"
           fi
+
+      - name: Disable Jekyll on GitHub Pages
+        shell: bash
+        run: |
+          touch public/.nojekyll
 
       - name: Deploy to gh-pages
         if: github.event_name != 'pull_request'
