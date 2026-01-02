@@ -3,6 +3,7 @@ name: Deploy website to GitHub Pages
 env:
   WC_HUGO_VERSION: '0.152.2'
   NODE_VERSION: '20'
+  BASE_URL: 'https://ashriva.in/'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -75,7 +76,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify --baseURL "https://ashriva16.github.io/"
+          hugo --minify --gc --cleanDestinationDir --baseURL "${BASE_URL}"
 
       - name: Generate Pagefind search index (if applicable)
         run: |
