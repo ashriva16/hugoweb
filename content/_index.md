@@ -17,7 +17,7 @@ sections:
       background: uq
       cta:
         text: 'Contact'
-        url: 'mailto:ankit.shrivastava@gmail.com'
+        url: 'https://www.linkedin.com/messaging/compose/?recipient=ashriva16'
 
   - block: resume-biography-3
     id: bio
