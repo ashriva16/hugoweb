@@ -13,7 +13,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/adversarial-cnn.png
+  filename: reports/adversarial_attack/adversarial_attack.png
   caption: ''
   focal_point: Center
 ---
@@ -60,7 +60,7 @@ A classic demonstration comes from researchers at Google Brain, who showed that 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/adversarial-cnn.png"
+        <img src="/assets/reports/adversarial_attack/adversarial_attack.png"
              alt="Adversarial example"
              class="img-fluid rounded z-depth-1 w-75 mx-auto d-block"
              loading="lazy">

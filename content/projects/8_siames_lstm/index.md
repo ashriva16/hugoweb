@@ -12,7 +12,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/siamese-lstm.png
+  filename: reports/siamese_lstm/Picture6.png
   caption: ''
   focal_point: Center
 ---

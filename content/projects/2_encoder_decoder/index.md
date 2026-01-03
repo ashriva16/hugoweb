@@ -12,7 +12,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/encoder-decoder.png
+  filename: reports/microstrcture_encoder_decoder/highlight.png
   caption: ''
   focal_point: Center
 ---
@@ -44,7 +44,7 @@ Hence, predicting material behavior is not just a research challenge but a busin
 
 <figure class="row justify-content-center my-4">
   <div class="col-sm-10 col-md-8">
-    <img src="/assets/img/projects/encoder-decoder.png" alt="Failure of large-scale structures due to material defects" class="img-fluid rounded z-depth-1 w-75 mx-auto d-block" loading="lazy">
+    <img src="/assets/reports/microstrcture_encoder_decoder/highlight.png" alt="Failure of large-scale structures due to material defects" class="img-fluid rounded z-depth-1 w-75 mx-auto d-block" loading="lazy">
   </div>
   <figcaption class="caption" markdown="1">
   Liberty Ship *Schenectady* fractured from deck to keel.
@@ -81,7 +81,7 @@ In this work, we developed a method to **predict peak-stress clusters in polycry
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    <img src="/assets/img/projects/encoder-decoder.png"
+    <img src="/assets/reports/microstrcture_encoder_decoder/highlight.png"
          alt="Proposed encoder decoder architecture with Saliency mapping"
          class="img-fluid rounded z-depth-1 w-75 mx-auto d-block"
          loading="lazy">

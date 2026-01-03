@@ -13,7 +13,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/latent-evolution.png
+  filename: reports/microstructure_latent_model/highlight.png
   caption: ''
   focal_point: Center
 ---
@@ -56,7 +56,7 @@ These microstructures don't stay static; they evolve through processes such as *
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <figure class="img-fluid rounded z-depth-1 w-50 mx-auto d-block">
-      <img src="/assets/img/projects/latent-evolution.png" alt="Simulated examples of spinodal decomposition, dendritic growth, and grain evolution" loading="lazy">
+      <img src="/assets/reports/microstructure_latent_model/highlight.png" alt="Simulated examples of spinodal decomposition, dendritic growth, and grain evolution" loading="lazy">
     </figure>
   </div>
 </div>
@@ -91,7 +91,7 @@ By applying these criteria before deploying downstream machine-learning models, 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <figure class="img-fluid rounded z-depth-1 w-50 mx-auto d-block">
-      <img src="/assets/img/projects/latent-evolution.png" alt="overview image" loading="lazy">
+      <img src="/assets/reports/microstructure_latent_model/highlight.png" alt="overview image" loading="lazy">
     </figure>
   </div>
 </div>

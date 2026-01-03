@@ -1,5 +1,5 @@
 ---
-title: Talk — Modeling process structure property relationships in Mo thin films from multi-modal data using machine learning
+title: Presentation — Modeling process structure property relationships in Mo thin films from multi-modal data using machine learning
 event: U.S. National Congress on Computational Mechanics
 location: Albuquerque, NM, USA
 date: '2023-01-01'

@@ -12,7 +12,7 @@ authors:
 tags:
 - High Performance Computing
 image:
-  filename: projects/electromagnetism.webp
+  filename: reports/electromagnetics/hvdc.webp
   caption: ''
   focal_point: Center
 ---
@@ -36,7 +36,7 @@ It achieves a five-to-sixfold speed-up, making it a practical tool for large-sca
 <div class="row justify-content-center my-3">
   <div class="col-sm-10 col-md-8">
     <figure class="img-fluid rounded z-depth-1 shadow-sm w-100 mx-auto d-block">
-      <img src="/assets/img/projects/electromagnetism.webp" alt="HVDC" loading="lazy">
+      <img src="/assets/reports/electromagnetics/hvdc.webp" alt="HVDC" loading="lazy">
       <figcaption class="caption d-block text-center mt-2" markdown="1">
         Illustration of an HVDC transmission system. Source: [AllumiaX](https://www.allumiax.com/blog/high-voltage-direct-current-hvdc-transmission).
       </figcaption>
@@ -125,7 +125,7 @@ Together, these results demonstrate that the Galerkin-based MoM provides a fast 
 <div class="row justify-content-center my-3">
   <div class="col-sm-10 col-md-8">
     <figure class="img-fluid rounded z-depth-1 shadow-sm w-100 mx-auto d-block">
-      <img src="/assets/img/projects/electromagnetism.webp" alt="Ring and star electrode with the image conductors" loading="lazy">
+      <img src="/assets/reports/electromagnetics/hvdc.webp" alt="Ring and star electrode with the image conductors" loading="lazy">
       <figcaption class="caption d-block text-center mt-2" markdown="1">
         Ring and star electrode systems with their image conductors. To read in more detail, refer to {%cite muhammed2021parallel --file papers%}.
       </figcaption>

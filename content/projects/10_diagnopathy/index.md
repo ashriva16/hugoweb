@@ -12,7 +12,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/diagnopathy.png
+  filename: reports/diagnopathy/Picture7.png
   caption: ''
   focal_point: Center
 ---
@@ -52,7 +52,7 @@ The pattern, color, and location of these features help determine whether the di
 <div class="row justify-content-center my-3">
   <div class="col-sm-10 col-md-8">
     <figure class="img-fluid rounded z-depth-1 shadow-sm w-100 mx-auto d-block">
-      <img src="/assets/img/projects/diagnopathy.png" alt="Annotated retinal fundus image" loading="lazy">
+      <img src="/assets/reports/diagnopathy/Picture7.png" alt="Annotated retinal fundus image" loading="lazy">
       <figcaption class="caption d-block text-center mt-2">
         Annotated retinal fundus image showing key DR lesions.
       </figcaption>
@@ -86,7 +86,7 @@ It helped make small lesions like microaneurysms easier to detect in the IDRiD d
 
 <div class="row justify-content-center my-3">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/diagnopathy.png"
+        <img src="/assets/reports/diagnopathy/Picture7.png"
              alt="overview image"
              class="img-fluid rounded z-depth-1 w-75 mx-auto d-block"
              loading="lazy">

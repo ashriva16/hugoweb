@@ -12,7 +12,7 @@ authors:
 tags:
 - High Performance Computing
 image:
-  filename: projects/ant-rfd-tsp.png
+  filename: reports/ant_rfd_tsp/Picture12.png
   caption: ''
   focal_point: Center
 ---
@@ -75,7 +75,7 @@ In this work, we extended the hybrid Ant Colony Optimization–River Flow Dynami
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/ant-rfd-tsp.png"
+        <img src="/assets/reports/ant_rfd_tsp/Picture12.png"
              alt="overview image"
              class="img-fluid rounded z-depth-1 w-50 mx-auto d-block"
              loading="lazy">

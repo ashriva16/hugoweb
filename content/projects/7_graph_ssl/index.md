@@ -13,7 +13,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/graph-ssl.png
+  filename: reports/graph_ssl/Picture9.png
   caption: ''
   focal_point: Center
 ---

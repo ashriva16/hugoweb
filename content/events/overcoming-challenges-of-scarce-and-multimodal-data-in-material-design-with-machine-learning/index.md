@@ -1,5 +1,5 @@
 ---
-title: Talk — Overcoming challenges of scarce and multimodal data in material design with machine learning
+title: Presentation — Overcoming challenges of scarce and multimodal data in material design with machine learning
 event: BIRDSHOT Center seminar, Texas A&M University
 location: College Station, Texas, USA
 date: '2024-01-01'

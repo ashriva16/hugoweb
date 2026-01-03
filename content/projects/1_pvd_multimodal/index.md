@@ -11,7 +11,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/pvd-multimodal.png
+  filename: reports/multi_modal/overview.png
   caption: ''
   focal_point: Center
 ---

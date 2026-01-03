@@ -1,5 +1,5 @@
 ---
-title: Talk — Predicting Stress Hotspots Inside Microstructures Using Deep Learning
+title: Presentation — Predicting Stress Hotspots Inside Microstructures Using Deep Learning
 event: Materials Science & Technology conference
 location: Pittsburgh, PA, USA
 date: '2020-01-01'

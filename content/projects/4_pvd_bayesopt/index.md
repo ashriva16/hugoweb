@@ -12,7 +12,7 @@ authors:
 tags:
 - Probabilistic Modeling
 image:
-  filename: projects/pvd-bayesopt.jpg
+  filename: reports/pvd_bayesian_optimization/Picture1.jpg
   caption: ''
   focal_point: Center
 ---
@@ -53,7 +53,7 @@ For example, in the deposition of molybdenum (Mo) barrier layers, increasing pow
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/pvd-bayesopt.jpg"
+        <img src="/assets/reports/pvd_bayesian_optimization/Picture1.jpg"
              alt="Cross-section drawing of key atomistic processes involved in sputtering, transport, and film growth"
              class="img-fluid rounded z-depth-1 w-75 mx-auto d-block"
              loading="lazy">
@@ -74,7 +74,7 @@ In semiconductors, this means finding reliable process conditions with fewer tes
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/pvd-bayesopt.jpg"
+        <img src="/assets/reports/pvd_bayesian_optimization/Picture1.jpg"
              alt="overview image"
              class="img-fluid rounded z-depth-1 w-75 mx-auto d-block"
              loading="lazy">
@@ -93,7 +93,7 @@ This uncertainty is not a drawback; instead, it guides exploration into new regi
 In this way, the search quickly converges on the best options without wasting time.
 
 <figure>
-  <img src="/assets/img/projects/gp.gif"
+  <img src="/assets/reports/pvd_bayesian_optimization/gp.gif"
        class="img-fluid rounded z-depth-1 w-60 mx-auto d-block"
        alt="Gaussian process fit"
        loading="lazy">

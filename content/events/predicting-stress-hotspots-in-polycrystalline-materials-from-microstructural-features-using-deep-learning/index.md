@@ -1,5 +1,5 @@
 ---
-title: Talk — Predicting stress hotspots in polycrystalline materials from microstructural features using deep learning
+title: Presentation — Predicting stress hotspots in polycrystalline materials from microstructural features using deep learning
 event: Computational Biosciences Group Seminar, Lawrence Berkeley National Laboratory
 location: Berkeley, CA, USA
 date: '2021-01-01'

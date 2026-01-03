@@ -12,6 +12,10 @@ authors:
 - admin
 tags:
 - Scientific Computing
+image:
+  filename: reports/force_chains/Granular_matter_examples.png
+  caption: ''
+  focal_point: Center
 ---
 <p align="center" style="display:inline-flex; flex-wrap:wrap; gap:6px;">
   <img src="https://img.shields.io/badge/LAMMPS-1E90FF?style=flat&logo=atom&logoColor=white"/>

@@ -109,7 +109,7 @@ sections:
     content:
       title: News
       text: 'Highlights and recent updates.'
-      page_type: blog
+      page_type: news
       count: 5
       filters:
         exclude_featured: false

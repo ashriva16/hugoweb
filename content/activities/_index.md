@@ -8,6 +8,7 @@ sections:
     content:
       title: Activities
       text: 'Invited and contributed presentations, organizers, and chairs.'
+      count: 100
       filters:
         folders:
           - events

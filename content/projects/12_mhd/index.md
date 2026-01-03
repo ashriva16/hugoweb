@@ -12,6 +12,10 @@ authors:
 - admin
 tags:
 - Scientific Computing
+image:
+  filename: reports/mhd/blanket.png
+  caption: ''
+  focal_point: Center
 ---
 <p align="center" style="display:inline-flex; flex-wrap:wrap; gap:6px;">
   <img src="https://img.shields.io/badge/ParMooN-FEM%20Framework-4B8BBE?style=flat&logoColor=white" alt="ParMooN FEM Framework"/>

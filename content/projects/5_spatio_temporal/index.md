@@ -12,7 +12,7 @@ authors:
 tags:
 - Deep Learning
 image:
-  filename: projects/spatio-temporal.png
+  filename: reports/spatio_temporal/Picture3.png
   caption: ''
   focal_point: Center
 ---
@@ -63,21 +63,21 @@ To manage this, engineers are forced into tradeoffs where they either compromise
 
 <div class="row text-center">
   <div class="col-md-4">
-  <img src="/assets/img/projects/spatio-temporal.png"
+  <img src="/assets/reports/spatio_temporal/Picture3.png"
          width="100%" height="auto"
          style="height:250px; object-fit:contain;"
          title="Aircraft Dynamics" loading="eager">
   </div>
 
   <div class="col-md-4">
-  <img src="/assets/img/projects/spatio-temporal.png"
+  <img src="/assets/reports/spatio_temporal/Picture3.png"
          width="100%" height="auto"
          style="height:250px; object-fit:contain;"
          title="Bridge Dynamics" loading="eager">
   </div>
 
   <div class="col-md-4">
-  <img src="/assets/img/projects/spatio-temporal.png"
+  <img src="/assets/reports/spatio_temporal/Picture3.png"
          width="100%" height="auto"
          style="height:250px; object-fit:contain;"
          title="Building Dynamics" loading="eager">
@@ -105,7 +105,7 @@ In short, it's a step toward faster, more reliable scientific simulations and de
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/spatio-temporal.png"
+        <img src="/assets/reports/spatio_temporal/Picture3.png"
              alt="overview image"
              class="img-fluid rounded z-depth-1 w-75 mx-auto d-block"
              loading="lazy">
